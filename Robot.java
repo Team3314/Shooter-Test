@@ -83,18 +83,18 @@ public class Robot extends IterativeRobot {
 	 * This function is called periodically during operator control
 	 */
 	public void teleopInit() {
-		/*
+		
 		talon2.reverseSensor(false);
 		talon2.setFeedbackDevice(CANTalon.FeedbackDevice.QuadEncoder);
 		talon2.changeControlMode(CANTalon.TalonControlMode.Speed);
 		talon2.setPID(kShooterKp, kShooterKi, kShooterKd, kShooterKf, kShooterIZone, kShooterRampRate, 0);
 		talon2.configNominalOutputVoltage(+0.0f, -0.0f);
 		talon2.configPeakOutputVoltage(+12.0f, -12.0f);
-		talon2.configEncoderCodesPerRev(497);
+		talon2.configEncoderCodesPerRev(2048);
 		talon2.setPosition(0);
 		talon2.setReverseSoftLimit(0);
 		talon2.setForwardSoftLimit(1000);
-		*/
+		
 	}
 	
 	@Override
